@@ -107,6 +107,7 @@ Example of the format of this file:
 **Optional Columns:** "Function/Classification", "InterPro Domain", "Pfam domain" (case sensitive)
 
 **Possible entries for specific columns:**
+
 **Bitacora**: `full` `genome` `protein` `No` (any other entry or casing also counts as "No")
 
 **InterPro Domain**: can be a single entry or a space seperated list of InterPro IDs, any hit is treated as a candidate gene
