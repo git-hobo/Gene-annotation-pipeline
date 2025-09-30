@@ -98,11 +98,11 @@ The input files required to run a full analysis (update the complete path to the
 
 Example of the format of this file:
 
-| Function/Classification | Gene family | Blast | InterPro Domain | Pfam domain | Average number of genes |Average protein length | Peptide start length | E-value |
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Chemosensory receptors | OR | Yes | IPR004117 | PF02949 | 300-400 | 400 | 40 | 1,00E-5 |
-| Chemosensory and others | CD36 | Yes | IPR002159 | PF01130 | 9 | 350 | 40 | 1,00E-5 |
-| ... | ... | ... | ... | ... | ... | ... | ... | ... |
+| Function/Classification | Gene family | Blast | InterPro Domain | Pfam domain | Average number of genes |Average protein length | Peptide start length | E-value | Bitacora
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| Chemosensory receptors | OR | Yes | IPR004117 | PF02949 | 300-400 | 400 | 40 | 1,00E-5 | full
+| Chemosensory and others | CD36 | Yes | IPR002159 | PF01130 | 9 | 350 | 40 | 1,00E-5 | protein
+| ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
 
  **NOTE:** Not all the fields from the table have to be filled for a gene family to be annotated. "Function/Classification", "InterPro Domain" and "Pfam domain" can be blank cells (specially if there is no domain information about the gene family). "Blast" cell can also be blank if there is no input fasta database of the gene family to run a *blastp*.
 
